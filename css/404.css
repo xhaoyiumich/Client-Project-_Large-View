@@ -1,0 +1,86 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #00274C;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-404-container {
+  margin: auto;
+  padding: 3em;
+  min-width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,39,76,.07);
+  border: 1px solid #e0e0e0;
+  max-width: 450px;
+}
+
+.umsi-logo-error {
+  width: 120px;
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  color: #00274C;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.error-message {
+  margin-bottom: 1.6em;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.go-home-btn {
+  background: #FFCB05;
+  color: #00274C;
+  font-weight: bold;
+  border: none;
+  padding: 0.75em 2em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.1em;
+  box-shadow: 0 2px 8px rgba(0,39,76,.08);
+  transition: background 0.15s;
+  display: inline-block;
+}
+
+.go-home-btn:hover, .go-home-btn:focus {
+  background: #ffd963;
+  color: #00274C;
+}
+
+.error-links {
+  margin-top: 1.8em;
+  font-size: 1em;
+}
+
+.error-links a {
+  color: #4174c3;
+  text-decoration: none;
+  margin: 0 0.7em;
+}
+
+.error-links a:hover, .error-links a:focus {
+  color: #00274C;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .error-404-container {
+    padding: 1em;
+    max-width: none;
+    border-radius: 0;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
